@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientReport.DAL.Interface\ClientReport.DAL.Interface.csproj" />
+    <ProjectReference Include="..\ClientReport.DAL\ClientReport.DAL.csproj" />
+    <ProjectReference Include="..\ClientReport.Service.Interface\ClientReport.Service.Interface.csproj" />
+    <ProjectReference Include="..\ClientReport.Service\ClientReport.Service.csproj" />
+  </ItemGroup>
+
+</Project>

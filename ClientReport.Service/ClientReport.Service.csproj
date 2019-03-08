@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientReport.DAL.Interface\ClientReport.DAL.Interface.csproj" />
+    <ProjectReference Include="..\ClientReport.Service.Interface\ClientReport.Service.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
